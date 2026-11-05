@@ -1,12 +1,12 @@
 {
   "name": "clickmoto-backend",
   "version": "1.0.0",
-  "description": "Backend API para ClickMoto - Sistema de gestión de parqueo de motocicletas",
+  "description": "Backend API para ClickMoto - Sistema de gesti\u00f3n de parqueo de motocicletas",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && node --watch server.js"
   },
   "keywords": [
     "parqueo",
